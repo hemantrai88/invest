@@ -1,0 +1,262 @@
+  <!doctype html>
+  <!--
+    Material Design Lite
+    Copyright 2015 Google Inc. All rights reserved.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        https://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License
+  -->
+
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>[Company Name]</title>
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+      <script type="text/javascript" src="js/slippry.min.js"></script>
+
+      <!-- Page styles -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.css">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="css/slippry.css">
+      <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.blue-indigo.min.css" /> 
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('#slippry-demo').slippry();
+          setTimeout(function(){ document.getElementById("showPage").click(); }, 1500);
+        });
+      </script>
+
+    </head>
+    <body>
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+        <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+          <div class="mdl-layout__header-row">
+            <span class="android-title mdl-layout-title">
+              <strong class="in-company-name mdl-color-text--accent-contrast">[Company Name]</strong>
+            </span>
+            <!-- Add spacer, to align navigation to the right in desktop -->
+            <div class="android-header-spacer mdl-layout-spacer"></div>
+            <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+              <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+                <i class="material-icons">search</i>
+              </label>
+              <div class="mdl-textfield__expandable-holder">
+                <input class="mdl-textfield__input" type="text" id="search-field" />
+              </div>
+            </div>
+            <!-- Navigation -->
+            <div class="android-navigation-container">
+              <nav class="android-navigation mdl-navigation">
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="index.html">Home</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="aboutUs.html">About Us</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="servicesOffered.html">Services Offered</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="contactUs.html">Contact Us</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="news.html">News</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="blog.html">Blog</a>
+              </nav>
+            </div>
+            
+            <span class="android-mobile-title mdl-layout-title">
+               <strong class="in-company-name mdl-color-text--accent-contrast">[Company Name]</strong>
+            </span>
+          </div>
+        </div>
+
+        <div class="android-drawer mdl-layout__drawer">
+          <span class="mdl-layout-title mdl-color--accent">
+            <strong class="in-company-name mdl-color-text--accent-contrast">[Company Name]</strong>
+          </span>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="index.html">Home</a>
+            <a class="mdl-navigation__link" href="aboutUs.html">About Us</a>
+            <div class="android-drawer-separator"></div>
+            <span class="mdl-navigation__link mdl-color-text--primary" href="servicesOffered.html"><strong>Services Offered</strong></span>
+            <a class="mdl-navigation__link" href="consultancy.html">Consultancy</a>
+            <a class="mdl-navigation__link" href="training.html">Trainings offered</a>
+            <a class="mdl-navigation__link" href="financialPlanning.html">Financial Planning</a>
+            <div class="android-drawer-separator"></div>
+            <a class="mdl-navigation__link" href="contactUs.html">Contact Us</a>
+            <a class="mdl-navigation__link" href="news.html">News</a>
+            <a class="mdl-navigation__link" href="blog.html">Blog</a>
+          </nav>
+        </div>
+
+        <div class="android-content mdl-layout__content">
+          <a name="top"></a>
+          <div class="android-be-together-section mdl-typography--text-center">
+          <a id="showPage" href="#page"></a>
+            <ul id="slippry-demo">
+              <li>
+                <a href="#slide3"><img src="img/consulting.png" alt="<h1 class='in-slider-heading'>Consulting</h1><h6 class='in-slider-text'>[Company Name] has expertise in the BFSI domain and has successfully completed assignments on transforming companies the way they serve their clients.[Company Name] engages with clients and extensively studies the current processes.</h6><a class='android-link mdl-button mdl-js-button mdl-typography--text-uppercase' href='consultancy.html'>Learn More<i class='material-icons'>chevron_right</i></a></div>"></a>
+              </li>
+              <li>
+                <a href="#slide1"><img src="img/planning.png" alt="<h1 class='in-slider-heading'>Planning</h1><h6 class='in-slider-text'>[Company Name] team comprises of Financial Planners who have in-depth understanding of the various concepts involved in financial planning and accordingly guide investors to achieve their goals</h6><div class='mdl-card__actions'><a class='android-link mdl-button mdl-js-button mdl-typography--text-uppercase' href='financialPlanning.html'>Learn More<i class='material-icons'>chevron_right</i></a></div>"></a>
+              </li>
+              <li>
+                <a href="#slide2"><img src="img/training.png"  alt="<h1 class='in-slider-heading'>Training</h1><h6 class='in-slider-text'>[Company Name] believes that knowledge is the key to get success. [Company Name] has expertise in Banking and Financial Services domain and builds up programs for its clients that help them improve the knowledge and competency of their employee</h6><div class='mdl-card__actions'><a class='android-link mdl-button mdl-js-button mdl-typography--text-uppercase' href='training.html'>Learn More<i class='material-icons'>chevron_right</i></a></div>"></a>
+              </li>
+            </ul>
+
+            <div class="android-drawer-separator"></div>
+
+            <a name="page"></a>
+
+            <div class="android-more-section">
+            
+            <div class="android-card-container mdl-grid">
+
+            <div class="mdl-card mdl-shadow--2dp demo-card-event mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                <div class="mdl-card__title mdl-card--expand in-next-card-color">
+
+                  <div class="mdl-card__actions mdl-card--border mdl-color--primary in-card-heading-div">
+                  
+                    <div class="mdl-layout-spacer"></div>
+                    <h4 class="in-card-heading-label">Contact Us</h4>
+                  </div>
+
+                  <div class="android-drawer-separator"></div>
+                    <div class="mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--1-col-phone"></div>
+                    <div class="in-contactUs-div mdl-cell--8-col mdl-cell--6-col-tablet mdl-cell--2-col-phone">
+                      <form class="in-contactUs-form">
+
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                          <input class="mdl-textfield__input" type="text" id="name" />
+                          <label class="mdl-textfield__label" for="name">Name</label>
+                        </div>
+                      
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="contactNumber" />
+                          <label class="mdl-textfield__label" for="contactNumber">Contact Number</label>
+                          <span class="mdl-textfield__error">Please enter a number!</span>
+                        </div>
+
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                          <textarea class="mdl-textfield__input" type="text" rows= "3" id="address" ></textarea>
+                          <label class="mdl-textfield__label" for="address">Address</label>
+                        </div>
+
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                          <input class="mdl-textfield__input" type="text" id="city" />
+                          <label class="mdl-textfield__label" for="city">City</label>
+                        </div>
+
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                          <input class="mdl-textfield__input" type="text" id="email" />
+                          <label class="mdl-textfield__label" for="email">Email</label>
+                        </div>
+
+                        <div class="mdl-textfield mdl-js-textfield mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                          <textarea class="mdl-textfield__input" type="text" rows= "3" id="message" ></textarea>
+                          <label class="mdl-textfield__label" for="message">Message</label>
+                        </div>
+
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-color--primary">
+                          Submit
+                        </button>
+
+                      </form>
+                    </div>
+                </div>
+                
+              </div>
+
+
+            </div>
+          </div>
+
+          
+
+          <footer class="android-footer mdl-mega-footer">
+
+            <div class="mdl-mega-footer--right-section">
+                <a class="mdl-typography--font-light" href="#top">
+                  Back to Top
+                  <i class="material-icons">expand_less</i>
+                </a>
+            </div>
+
+            <div  class="mdl-mega-footer--middle-section in-social-div">
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect in-social-button">
+                  <img class="in-social mdl-color--primary" src="images/facebook.png">
+                </button>
+                &nbsp;
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                  <img class="in-social mdl-color--primary" src="images/twitter.png">
+                </button>
+                &nbsp;
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                  <img class="in-social mdl-color--primary" src="images/linkedin.png">
+                </button>
+                &nbsp;
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                  <img class="in-social mdl-color--primary" src="images/instagram.png">
+                </button>
+                &nbsp;
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                  <img class="in-social mdl-color--primary" src="images/pinterest.png">
+                </button>
+                &nbsp;
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                  <img class="in-social mdl-color--primary" src="images/google-plus.png">
+                </button>
+                &nbsp;
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                  <img class="in-social mdl-color--primary" src="images/youtube.png">
+                </button>
+                &nbsp;
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                  <img class="in-social mdl-color--primary" src="images/phone.png">
+                </button>
+                &nbsp;
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                  <img class="in-social mdl-color--primary" src="images/email.png">
+                </button>
+            </div>
+
+              <div class="mdl-mega-footer--middle-section">
+                <p class="mdl-typography--font-light"> © 2015 [Company Name], [Company Address]</p>
+              </div>
+
+
+            <div class="mdl-mega-footer--bottom-section">
+              <a class="android-link mdl-typography--font-light" href="index.html">Home</a>
+              <a class="android-link mdl-typography--font-light" href="aboutUs.html">About us</a>
+              <a class="android-link android-link-menu mdl-typography--font-light" id="servicesOffered">
+                Services Offered
+                <i class="material-icons">arrow_drop_up</i>
+              </a>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="servicesOffered">
+                <li class="mdl-menu__item"><a class="android-link android-link-menu mdl-typography--font-light" href="consultancy.html">Consultancy</a></li>
+                <li class="mdl-menu__item"><a class="android-link android-link-menu mdl-typography--font-light" href="training.html">Trainings Offered</a></li>
+                <li class="mdl-menu__item"><a class="android-link android-link-menu mdl-typography--font-light" href="financialPlanning.html">Financial Planning</a></li>
+              </ul>
+              <a class="android-link mdl-typography--font-light" href="contactUs.html">Contact Us</a>
+              <a class="android-link mdl-typography--font-light" href="news.html">News</a>
+              <a class="android-link mdl-typography--font-light" href="blog.html">Blog</a>
+            </div>
+
+          </footer>
+        </div>
+      </div>
+      <script src="material.min.js"></script>
+
+
+    </body>
+  </html>
